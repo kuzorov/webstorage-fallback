@@ -1,7 +1,7 @@
 {
-  "name": "webstorage-fallback",
-  "version": "1.0.0",
-  "description": "Polyfill for webstorage even in privat tabs, etc",
+  "name": "@kuzorov/webstorage-fallback",
+  "version": "1.0.1",
+  "description": "Polyfill for webstorage even in private tabs, etc",
   "main": "webstorageFallback.min.js",
   "scripts": {
     "build": "uglifyjs --compress --mangle -o webstorageFallback.min.js -- webstorageFallback.js",
@@ -17,7 +17,7 @@
     "sessionStorage",
     "polyfill"
   ],
-  "author": "Evgeniy Kuzorov",
+  "author": "Evgeniy Kuzorov <kuzorov@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kuzorov/webstorage-fallback/issues"
